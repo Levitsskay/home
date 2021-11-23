@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper{
+    height: 110vh;
+    background: url(../img/Rectangle.jpg)no-repeat center;
+    background-size:cover ;
+    padding-top:  50px; 
+
+}
+a{
+    text-decoration: none; 
+    font-family:monospace;
+    color:#fff;
+    padding:0px 10px; 
+    display: block; 
+    font-size:14px;
+    width: 92px;
+    height: 16px;
+    top: 55px;
+}
+li{
+    list-style-type: none;
+    float:right; 
+    position:relative;
+    margin: 0 20px 50px 40px;
+}
+a:hover{
+    font-size: 15px;
+    color: #D4C17F;
+}
+h1{
+    font-family:'Times New Roman', Times, serif ;
+    font-style: normal;
+    font-size: 48px;
+    height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    margin: 220px 0 0 0;
+}
+
+.text1{
+    font-family:'Times New Roman', Times, serif ;
+    position: absolute;
+    width: 292px;
+    height: 36px;
+    left: 210px;
+    top: 1200px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+
+}
+.text2{
+    font-family:'Times New Roman', Times, serif ;
+    position: absolute;
+    width: 400px;
+    height: 36px;
+    left: 210px;
+    top: 1700px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+
+}
+.header{
+  
+}
+.header_nav{
+   
+}
+.header_logo{
+    margin-left: 100px;
+}
+.mouse_card{
+    display: block;
+    margin: 100px auto 0 auto;
+    
+}
+.mouse_card:hover{
+    height: 50px;
+    width: 50px;
+}
+.cards_items1{
+    position: absolute;
+    height: 21px;
+    left: 400px;
+    top: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    width:auto;
+    font-size: 18px;
+    color: white;
+    padding: 0 200px 0 0;
+}
+.cards_items2{
+    position: absolute;
+    height: 21px;
+    left: 900px;
+    top: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    width:auto;
+    font-size: 18px;
+    color: white;
+}
+.last_content{
+    height: 1400px;
+    width: 1519px;
+    background-color: #242B33;
+}
+
+.benefit_cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    padding: 0 10px;
+    display:block; 
+    display:table-cell;
+    margin-bottom: 50px;
+    
+}
+.benefit_cart{
+   grid-column: span 1;
+}
+.benefit_cart_pic{
+   max-width: 10px;
+   margin: 40px 0 0 200px;
+
+
+}
+.benefit_cards_dec{
+    font-size: 14px;
+    font-family:monospace;
+    text-align: center;
+    color: white;
+    margin: 0 0 39px 200px;
+
+}
+.loft_pic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    padding: 0 10px;
+    display:block; 
+    display:table-cell;
+
+}
+
+
+.card_thum{
+    height: 250px;
+    margin-left: 37px;
+   padding: 220px 0 0 0;
+}
+
+.card_thum:hover{
+    height: 270px;
+    transition: 0.5s;
+}
+
+.city1{
+    width:1471px;
+}
+.card_text{
+    font-family:monospace ;
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    left: 210px;
+    top: 1780px;
+    font-style: normal;
+    font-size: 14px;
+    color:white;
+}
+.form_wrapper{
+margin: 190px 150px;    
+}
+.pole{
+    width: 255px;
+    height: 50px;
+    background: transparent;
+  /*  margin: 100px 0 0 0;*/
+    
+   
+}
+.btn{
+    width: 255px;
+    height: 50px;
+    background-color:#D4C17F;
+    color: white;
+    font-weight: bolder;
+  /*  margin: -80px 0 0 700px;*/
+
+}
+.videos{
+    position: absolute;
+    width: 719px;
+    height: 650px;
+    left: 390px;
+    top: 2100px;
+
+}
+.play{
+    position: absolute;
+    left: 700px;
+    top: 2400px;
+
+
+}
+.text3{
+    font-family:'Times New Roman', Times, serif ;
+    position: absolute;
+    width: 400px;
+    height: 36px;
+    left: 210px;
+    top: 2810px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+
+}
+.map{
+    position: absolute;
+    
+    padding: 660px 190px 10px 190px;
+
+}
+.text4{
+    font-family:'Times New Roman', Times, serif ;
+    position: absolute;
+    width: 292px;
+    height: 36px;
+    left: 210px;
+    top: 1100px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+.footer{
+    background-color: #2D343C;
+    height: 200px;
+    width: 1519px;
+
+}
+.footer_logo{
+    padding: 100px 0 0 100px;
+}
